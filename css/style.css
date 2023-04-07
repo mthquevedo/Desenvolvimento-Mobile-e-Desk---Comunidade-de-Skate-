@@ -17,6 +17,15 @@ body {
     width: 40px;
 }
 
+.menu_lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_lateral_logo {
+    align-self: center;
+}
+
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-size: 24px;
