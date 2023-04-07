@@ -12,3 +12,8 @@ body {
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+}
