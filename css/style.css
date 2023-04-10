@@ -32,11 +32,17 @@ body {
 }
 
 .menu_lateral_link {
-    height: 64px;
+    height: 60px;
     color: #95999C;
     padding-left: 64px;
     display: flex;
     align-items: center;
+}
+
+.menu_lateral_link--ativo {
+    color: #ffffff;
+    padding-left: 56px;
+    border-left: 6px solid #ffffff;
 }
 
 .material-symbols-outlined {
