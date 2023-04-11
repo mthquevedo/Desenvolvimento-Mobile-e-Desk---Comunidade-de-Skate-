@@ -23,7 +23,17 @@ body {
     background-color: #15191C;
     width: 75vw;
     height: 100vh;
+
+    position: absolute;
+    left: -100vh;
+    transition: .25s;
 }
+
+.menu_lateral_ativo {
+    left: 0;
+    transition: .25s;
+}
+
 
 .menu_lateral_logo {
     align-self: center;
