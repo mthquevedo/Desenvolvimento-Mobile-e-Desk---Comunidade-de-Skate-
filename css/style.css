@@ -86,30 +86,42 @@ body {
 
 .cartao-conteudo {
     padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
+.cartao-destaque{
+    grid-column: span 2;
 }
 
 .cartao-titulo {
     font-size: 1.2rem;
     font-weight: 700;
+    grid-column: span 2;
 }
 
 .cartao-perfil {
     color: #95999C;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 
 .cartao-info {
     display: flex;
+    font-size: 14px;
     align-items: center;
     color: #95999C;
 }
 
-#info-tempo {
-    margin-right: 8px;
+.info-tempo{
+    font-size: 1.1rem;
+    margin-right: 7px;
 }
 
-#info-visualizacao {
-    margin-right: 8px;
+.info-visualizacao{
+    font-size: 1.1rem;
+    margin-right: 7px;
 }
 
 #botao-play {
@@ -129,8 +141,5 @@ body {
 
 .cartao-botao-destaque {
     width: 100%;
-}
-
-.teste {
-    
+    grid-column: span 2;
 }
