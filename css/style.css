@@ -70,10 +70,17 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
     font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -84,6 +91,10 @@ body {
     background-color: #2C343A;
 }
 
+.cartao_destaque {
+    margin-bottom: 16px;
+}
+
 .cartao-conteudo {
     padding: 16px;
     display: grid;
@@ -91,7 +102,7 @@ body {
     gap: 8px;
 }
 
-.cartao-destaque{
+.cartao-destaque {
     grid-column: span 2;
 }
 
@@ -114,12 +125,12 @@ body {
     color: #95999C;
 }
 
-.info-tempo{
+.info-tempo {
     font-size: 1.1rem;
     margin-right: 7px;
 }
 
-.info-visualizacao{
+.info-visualizacao {
     font-size: 1.1rem;
     margin-right: 7px;
 }
@@ -137,9 +148,15 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao-botao-destaque {
     width: 100%;
     grid-column: span 2;
+}
+
+.secao {
+    display: grid;
+    gap: 16px;
 }
