@@ -243,6 +243,45 @@ body {
         padding: 16px;
         box-sizing: border-box;
     }
+
+    .cartao-recentes .cartao-titulo{
+        grid-column: auto;
+    }
+
+    .cartao-link{
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #0480DC;
+        justify-self: flex-end;
+    }
+
+    .cartao-lista{
+        display: grid;
+        row-gap: 16px;
+        grid-column: span 2;
+    }
+
+    .cartao--item{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 8px;
+    }
+
+    .cartao--item-thumbnail{
+        width: 32px;
+        grid-row: span 2;
+    }
+
+    .cartao--item-titulo{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        font-weight: 700;
+    }
+
+    .cartao--item-perfil{
+        font: 0.8rem;
+        color: #95999C;
+    }
 }
 
 .secao {
