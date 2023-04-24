@@ -62,16 +62,16 @@ body {
         border-right: 1px solid #95999C;
     }
 
-    .cabecalho_perfil::before {
+        .cabecalho_perfil::before {
         content: "";
         display: block;
         width: 32px;
         height: 32px;
-        background-image: url(img/produto_2.png);
+        background-image: url("../img/profile_2.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-    }
+      }
 }
 
 .menu_lateral {
