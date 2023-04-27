@@ -166,6 +166,10 @@ body {
         padding: 16px 60px;
         grid-column: 2;
     }
+
+    .titulo-secao {
+        grid-column: span 4;
+    }
 }
 
 .cartao {
@@ -173,6 +177,10 @@ body {
     border-radius: 15px;
     overflow: hidden;
     background-color: #2C343A;
+}
+
+.cartao-imagem-desktop{
+    display: none;
 }
 
 .cartao_destaque {
@@ -245,6 +253,23 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+    .cartao-destaque{
+        margin-bottom: 0;
+    }
+    
+    .cartao-imagem-mobile{
+        display: none;
+    }
+    
+    .cartao-imagem-desktop{
+        display: block;
+    }
+    
+    .cartao-botao-destaque{
+        grid-column: auto;
+        padding: 16px 8px;
+    }
+
     .cartao-recentes {
         display: grid;
         grid-template-columns: auto auto;
@@ -253,6 +278,7 @@ body {
         width: 256px;
         padding: 16px;
         box-sizing: border-box;
+        align-self: flex-start;
     }
 
     .cartao-recentes .cartao-titulo {
@@ -298,6 +324,12 @@ body {
 .secao {
     display: grid;
     gap: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+     .secao{
+        grid-template-columns: repeat(4);
+     }
 }
 
 .destaque-video{
